@@ -2,6 +2,7 @@
 Self-Driving Car Engineer Nanodegree Program
 
 ---
+[![PID Controller](http://img.youtube.com/vi/MuAb94EUJtA/0.jpg)](http://www.youtube.com/watch?v=MuAb94EUJtA)
 
 ## Parameter Selection (steering angle only)
 

@@ -8,7 +8,7 @@ mkdir build
 cd build
 cmake ..
 make 
-sudo make install
+make install
 cd ..
 cd ..
 ln -s /usr/lib64/libuWS.so /usr/lib/libuWS.so

@@ -1,9 +1,7 @@
 version: "3.2"
 services:
   pid:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: sbinnani/udacity-pid-docker:latest
     ports:
       - "4567:4567"
     volumes:

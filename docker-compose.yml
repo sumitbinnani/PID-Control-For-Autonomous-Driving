@@ -1,0 +1,19 @@
+version: "3.2"
+services:
+  pid:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4567:4567"
+    volumes:
+      - type: bind
+        source: ./
+        target: /pid
+
+    command: bash -c "mkdir -p /pid/build &&
+                      cd /pid/build && 
+                      cmake .. && make && ./pid > /pid/out.txt"
+
+volumes:
+  .:
